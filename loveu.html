@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una Noche Especial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #ff4d4d;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+    <script>
+        function respuestaSi() {
+            alert('¡Qué alegría! Será una noche mágica 💖✨');
+        }
+        function respuestaNo() {
+            alert('¡Oh no! ¿Cómo pudiste romper mi corazón así? 💔😭');
+        }
+        function respuestaPensarlo() {
+            alert('Mmm... ¡Te espero!, las mejores oportunidades se hacen esperar 😜');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>¿Quieres tener una cita conmigo este San Valentín Muñeca? ❤️</h1>
+        <p>Será una noche especial, llena de sorpresas y momentos inolvidables.</p>
+        <button class="button" onclick="respuestaSi()">¡Sí, quiero! 💘</button>
+        <button class="button" style="background-color: gray;" onclick="respuestaNo()">No quiero 💔</button>
+        <button class="button" style="background-color: orange;" onclick="respuestaPensarlo()">Voy a pensarlo 🤭</button>
+    </div>
+</body>
+</html>
